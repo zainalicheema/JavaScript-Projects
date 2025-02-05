@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- title -->
+        <div class="titleCard">
+            <p class="title"><span>Weather</span>App</p>
+            <p class="desc">Get the weather details of any city,Right Now!</p>
+        </div>
+
+        <!-- input card -->
+        <div class="card">
+            <input type="text" placeholder="Enter your City" id="cityInput" class="inputBox"/>
+            <button id="searchBtn" class="btnSearch">Search</button>
+        </div>
+
+        <!-- output Card -->
+        <div id="outputCard" class="output">
+            <div class="cityNameCard">
+                <p id="city-name"></p>
+                <p id="countryName"></p>
+            </div>
+
+            <!-- Temprature -->
+            <div class="tempCard">
+                <p id="temp"></p>
+                <sup id="sup"></sup>
+            </div>
+            
+             <!-- How Was A Days -->
+             <div id="day">
+                <p id="day"></p>
+             </div>
+
+            <!-- time and date -->
+            <p id="loc-time"></p>
+            <div class="CWH">
+            <span id="cloud"></span>
+            <span id="wind"></span>
+            <span id="humdity"></span>
+        </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(114, 114, 246);
+}
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  margin-top: 20vh;
+  border-radius: 10px;
+}
+form {
+  padding: 20px;
+}
+.EN {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+#msg {
+  font-size: 0.7rem;
+}
+input[type="text"] {
+  width: 130px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+}
+input[type="email"] {
+  width: 130px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+}
+label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#Submit {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#Submit:hover {
+  background-color: #45a044;
+}

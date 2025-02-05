@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.container{
+text-align: center;
+border: 3px solid goldenrod;
+width: 400px;
+padding: 20px;
+margin: 0 auto;
+margin-top: 15vh;
+}
+label{
+font-size: 24px;
+color: white;
+}
+h1{
+color: goldenrod;
+font-size: 36px;
+margin-bottom: 20px;
+}
+input[type="number"]{
+width: 190px;
+height: 25px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button{
+width: 70px;
+height: 25px;
+border-radius: 5px;
+cursor: pointer;
+background-color: goldenrod;
+color: white;
+border: none;
+}
+#show{
+
+color: white;
+background-color: goldenrod;
+padding: 10px;
+font-size: 18px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+margin-bottom: 20px;
+display: inline-block;
+margin-right: 10px;
+}

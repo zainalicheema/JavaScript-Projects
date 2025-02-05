@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+    <div class="music-container play">
+        <div class="music-info">
+            <h4 id="title">Song-Artist</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="./song/Dil Tu Hi Bataa.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="./img/Dil Tu Hi Bataa.jpg" alt="music-cover" id="cover">
+        </div>
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+        <div class="controls">
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1" style="color: black;">
+    </div>
+</div>
+
+    
+<script src="./index.js"></script>
+</body>
+</html>
