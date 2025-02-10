@@ -1,0 +1,41 @@
+*{
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color:darkcyan;
+    font-weight: bold;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form h1{
+    text-decoration: overline ;
+}
+label{
+    padding: 10px;
+}
+input{
+    border: 1px solid white;
+}
+button{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px 40px 15px 40px;
+    cursor: pointer;
+}
+.info{
+ text-align: center;
+}
+.results{
+    text-align: center;
+    color: white;
+}
+
+.msg{
+    text-align: center;
+    color: white;
+}
+

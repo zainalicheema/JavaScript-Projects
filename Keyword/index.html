@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .color table {
+  width: 100%; /* Or a specific width like 300px */
+  border-collapse: collapse; /* Collapse table borders */
+  margin-top: 20px; /* Add some top margin */
+  font-family: sans-serif; /* Use a clean font */
+}
+
+.color th, .color td {
+  border: 1px solid #ddd; /* Add cell borders */
+  padding: 8px; /* Add padding to cells */
+  text-align: left; /* Align text to the left */
+}
+
+.color th {
+  background-color: #f2f2f2; /* Light gray background for header */
+  font-weight: bold; /* Make header text bold */
+}
+
+.color tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+/* Optional: Add hover effect */
+.color tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Optional: Style the key names (e.g., "Key", "KeyCode", "Code") */
+.color th {
+  color: #333; /* Darker text color for headers */
+}
+
+/* Optional: Style the values (e.g., "a", "65", "KeyA") */
+.color td {
+  color: #555; /* Slightly lighter text color for values */
+}
+</style>
+<body>
+    <div class="project">
+        <div id="insert">
+            <div class="key">
+                Press The Key & Watch Magic.    
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.canvas{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 50px 50px;
+}
+.buttons{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+#grey{
+    background-color: gray;
+    border: 2px solid black;
+}
+#red{
+    background-color: red;
+    border: 2px solid black;
+}
+#yellow{
+    background-color: yellow;
+    border: 2px solid black;
+}
+#brown{
+    background-color: brown;
+    border: 2px solid black;
+}

@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-family:cursive;
+    font-size: 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:purple;
+    border-radius: 40px;
+    height: 50vh;
+    padding: 100px;
+}
+.guessField{
+    padding: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+#subt{
+padding: 10px;
+font-weight: bold;
+cursor: pointer;
+border-radius: 0px 20px 0px 20px;
+}
+input{
+    outline: none;
+    border: none;
+}
